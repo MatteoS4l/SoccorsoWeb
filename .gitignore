@@ -1,0 +1,20 @@
+# Build output
+target/
+*.class
+*.war
+
+# IDE / OS files
+nb-configuration.xml
+nbactions.xml
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# User-uploaded files (kept out of the repository)
+SoccorsoWeb/src/main/webapp/uploads/*
+!SoccorsoWeb/src/main/webapp/uploads/.gitkeep
